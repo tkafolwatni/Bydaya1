@@ -100,3 +100,17 @@ p {
 .back-link:hover {
   color: white;
 }
+.about-list {
+  list-style: none;
+  padding: 0;
+  max-width: 600px;
+  margin: 20px auto;
+  text-align: right;
+  color: #eee;
+  font-size: 1.1em;
+}
+
+.about-list li {
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
