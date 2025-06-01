@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
@@ -12,11 +13,15 @@
     <h1>طلب انتساب لحزب تكافل وطني</h1>
     <p>املأ المعلومات التالية وسنتواصل معك قريبًا</p>
 
-    <form class="join-form">
-      <input type="text" placeholder="الاسم الكامل" required />
-      <input type="text" placeholder="رقم الهاتف" required />
-      <input type="email" placeholder="البريد الإلكتروني" />
-      <textarea placeholder="ملاحظات إضافية (اختياري)"></textarea>
+    <form class="join-form" action="https://formsubmit.co/tkafolwatni@gmail.com" method="POST">
+      <!-- إعدادات خاصة بـ Formsubmit -->
+      <input type="hidden" name="_next" value="https://bydaya1-l8k8.vercel.app/thanks.html">
+      <input type="hidden" name="_captcha" value="false">
+
+      <input type="text" name="name" placeholder="الاسم الكامل" required />
+      <input type="text" name="phone" placeholder="رقم الهاتف" required />
+      <input type="email" name="email" placeholder="البريد الإلكتروني" />
+      <textarea name="notes" placeholder="ملاحظات إضافية (اختياري)"></textarea>
       <button type="submit">إرسال الطلب</button>
     </form>
 
