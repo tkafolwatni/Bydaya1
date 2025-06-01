@@ -241,3 +241,7 @@ p {
 .login-form button:hover {
   background-color: #218838;
 }
+.login-message {
+  font-size: 1em;
+  margin-top: 15px;
+}
