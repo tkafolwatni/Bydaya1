@@ -165,3 +165,26 @@ p {
   padding-right: 20px;
   text-align: right;
 }
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+
+.login-button {
+  display: inline-block;
+  padding: 15px 30px;
+  font-size: 1.2em;
+  background-color: #ffc107;
+  color: black;
+  border: none;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.login-button:hover {
+  background-color: #e0a800;
+}
